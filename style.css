@@ -24,6 +24,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
+    position: sticky; /* Makes the navbar sticky */
+    top: 0; /* Sticks it to the top of the viewport */
+    z-index: 1000; /* Ensures it's above other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for a sleek look */
+
 }
 
 .portfolio-title {
