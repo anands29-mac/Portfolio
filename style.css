@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0px 50px;
     background-color: #111; /* Match your design */
     color: white;
     position: sticky; /* Makes the navbar sticky */
@@ -514,6 +514,8 @@ section ul li {
 
 .skill-item:hover .skill-icon {
     background-color: #cbd8f7;  /* Change icon background color on hover */
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 .skill-icon img {
