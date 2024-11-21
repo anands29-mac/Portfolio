@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 10px 20px;
     background-color: #111; /* Match your design */
     color: white;
     position: sticky; /* Makes the navbar sticky */
